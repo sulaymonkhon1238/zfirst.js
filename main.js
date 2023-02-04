@@ -41,19 +41,41 @@
 // age: ${age} 
 // jobx: ${ish} 
 // `)
-prompt("Jinsingizni kiriting");
-let erkak = "Siz o'g'il bolasiz";
-let ayol = "Siz qiz bolasiz";
-let yosh = prompt("Yoshingizni kiriting");
- if ( yosh <= 18 && erkak ){
-   console.log('siz yosh ogil bolasiz oqishingiz kerak')
- }
- else if ( yosh > 18 && erkak){
-   console.log("siz ogil bolasiz ishlasangiz boladi")
- }
- else if ( yosh <= 18 && ayol){
-   console.log("Siz yosh qiz bolasiz oqishingiz kerak")
+// let erkak = prompt("Jinsingizni kiriting");
+// let ayol = prompt("Jinsingizni kiriting");
+//  let erkak2 = "Siz o'g'il bolasiz";
+// let ayol2 = "Siz qiz bolasiz";
+// let yosh = prompt("Yoshingizni kiriting");
+//  if ( yosh <= 18 && erkak == erkak2 ){
+//    console.log('siz yosh ogil bolasiz oqishingiz kerak')
+//  }
+//  else if ( yosh > 18 && erkak == erkak2){
+//    console.log("siz ogil bolasiz ishlasangiz boladi")
+//  }
+//  else if ( yosh <= 16 && ayol2 == women){
+//    console.log("Siz yosh qiz bolasiz oqishingiz kerak")
 
- } else if ( yosh > 18 && ayol){
-   console.log('siz katta qizsiz ishlasangiz boladi')
-  }
+//  } else if ( yosh > 16 && ayol2 == women){
+//    console.log('siz katta qizsiz ishlasangiz boladi')
+//   }
+let oneDollar = 11191.00;
+let oneEuro = 11747.42;
+
+let flyInDollar = 500;
+let hotelInDollar = 250;
+let enjoyInEuro = 120;
+
+let expensesInDollar = (flyInDollar + hotelInDollar ) + oneDollar;
+let expensesInEuro = enjoyInEuro + oneEuro;
+let allExpensesInSum = expensesInDollar + allExpensesInSum;
+
+console.log(allExpensesInSum);
+
+let userMoney = prompt("Enter your Money");
+
+if (userMoney >= allExpensesInSum){
+   console.log("Oq yo'l")
+}
+else {
+   console.log("Pul kam ekan.");
+}
